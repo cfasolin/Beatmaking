@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(37, 37, 37);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size:60px ;
+    letter-spacing: 30px;
+    margin: 1px;
+    font-family: 'arial'
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 15px;
+    margin-top: 3px;
+    font-family: 'arial'
+}
+
+h3 {
+    font-family: 'Rockwell'
+}
+
+#btntempo {
+    display: flex;
+    justify-content: center;
+}
+
+#start {
+text-align: center;
+}
+
+#starttempo button {
+    color: yellow;
+    box-shadow: 0 0 20px yellow;
+    border-radius: 20px;
+    background-color: rgb(37, 37, 37);
+    padding:15px;
+    font-size: 30px;
+    margin-right:20px;
+}
+
+#stoptempo button {
+    color:red;
+    box-shadow: 0 0 20px red;
+    border-radius: 20px;
+    background-color: rgb(37, 37, 37);
+    padding:15px;
+    font-size: 30px;
+    margin-left:20px;
+}
+
+
+#metronome {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bttmnt {
+    padding:10px;
+    margin: 0 10px;
+}
+
+#sounds {    
+display: flex;
+justify-content: center;
+align-items: stretch;
+text-align: center;
+width:1200px;
+margin: 0 auto;
+gap: 40px;
+}
+
+#drums, #bass, #FX, #vocals {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:10px;
+    padding: 15px;
+    font-size:25px;
+    border-radius: 30px;
+    
+}
+
+#drums {
+box-shadow: 
+    0 0 20px orange
+
+}
+
+#bass {
+    box-shadow: 0 0 20px rgb(252, 104, 104);
+}
+#FX {
+box-shadow: 0 0 20px rgb(177, 255, 31); 
+}
+
+#vocals {
+box-shadow: 0 0 20px rgb(31, 240, 255); 
+}
+
+.playbuttons {
+background-color: rgb(54, 54, 54);
+font-size: 18px;
+padding: 10px 0;
+border-radius: 30%;
+}
+
+#drums .playbuttons {
+    border: solid 2px orange;
+    color: rgb(255, 196, 0);
+}
+#drums .playbuttons.active {
+
+    box-shadow: 0 0 20px rgb(255, 145, 1);
+}
+
+#bass .playbuttons {
+    border: solid 2px rgb(255, 57, 31);
+    color: rgb(255, 57, 31);
+}
+#bass .playbuttons.active {
+
+    box-shadow: 0 0 20px rgb(250, 58, 24);
+}
+
+#FX .playbuttons {
+    border: solid 2px rgb(177, 255, 31);
+    color: rgb(177, 255, 31);
+}
+#FX .playbuttons.active {
+
+    box-shadow: 0 0 20px rgb(177, 255, 31);
+}
+
+#vocals .playbuttons {
+    border: solid 2px rgb(31, 240, 255);
+    color: rgb(31, 240, 255);
+}
+#vocals .playbuttons.active {
+
+    box-shadow: 0 0 20px rgb(31, 240, 255);
+}
+
+.bttmnt {
+    font-size: 30px;
+
+}
+
+.bttmnt.active {
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(31, 240, 255);
+}
