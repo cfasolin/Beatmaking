@@ -66,7 +66,7 @@ playButtons.forEach(button =>
             {
             if (audio.paused) 
                 {
-                    if (button.parentElement.id !== "vocals") 
+                    if (button.parentElement.id !== "vocals") // si cest pas un vocal on loop
                         {
                         audio.loop = true
                         }
@@ -78,7 +78,7 @@ playButtons.forEach(button =>
                         })      
                         }
                 button.classList.add("active")       
-                sonAttente.push(audio)
+                sonAttente.push(audio) // on met les sons dans la file d'attente pour que ça parte au prochain beat
                 }
 
             else 
