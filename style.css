@@ -67,7 +67,7 @@ text-align: center;
 #sounds {    
 display: flex;
 justify-content: center;
-align-items: stretch;
+align-items: stretch; /* vertical: éléments prennent toute la hauteur */
 text-align: center;
 width:1200px;
 margin: 0 auto;
@@ -76,9 +76,9 @@ gap: 40px;
 
 #drums, #bass, #FX, #vocals {
     display: flex;
-    flex:1;
+    flex:1; /* étire pour remplir l'espace */
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-start; /* démarrent tous du haut */
     gap:10px;
     padding: 15px;
     font-size:25px;
