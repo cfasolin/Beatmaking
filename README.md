@@ -19,3 +19,5 @@ Mini beatmaker en JavaScript permettant de lancer des loops synchronisées avec 
 ## 🎯 Objectif
 
 Projet fun pour apprendre la gestion du temps, des événements et de l’audio en JavaScript.
+
+Problème : A chaque nouvelle loop, il y a un mini-delay qui décale tout et qui ne rend pas le projet exploitable. 
