@@ -1,8 +1,8 @@
-# BPM — Beatmaker Politics Mix 🎧
+# BPM — Beatmaker Politics Mix
 
 Mini beatmaker en JavaScript permettant de lancer des loops synchronisées avec un métronome.
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 - Métronome à 120 BPM
 - Synchronisation des sons au beat
@@ -10,14 +10,14 @@ Mini beatmaker en JavaScript permettant de lancer des loops synchronisées avec 
 - Samples vocaux non loopés
 - Boutons Play / Stop pour lancer le métronome ou arrêter les sons + métronome
 
-## 🛠️ Technologies
+## Technologies
 
 - HTML
 - CSS
 - JavaScript
 
-## 🎯 Objectif
+## Objectif
 
-Projet fun pour apprendre la gestion du temps, des événements et de l’audio en JavaScript.
+Projet personnel pour apprendre la gestion du temps, des événements et de l’audio en JavaScript.
 
-Problème : A chaque nouvelle loop, il y a un mini-delay qui décale tout et qui ne rend pas le projet exploitable. 
+Problème : A chaque nouvelle loop, il y a un mini-delay qui décale tout et qui ne rend pas le projet exploitable. De plus l'utilisation de loops gratuites rend difficile la recherche d'une bonne cohérence entre les pistes.
